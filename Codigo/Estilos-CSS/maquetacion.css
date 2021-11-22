@@ -1,0 +1,103 @@
+*{                      
+    margin: 0;
+}
+#contenedor{            
+    width: 1200px;
+    height: 1000px;
+    margin: 0.5em auto;      
+    padding: 0.5em;
+}
+#header{
+    height: 20%;
+    width: 80%;
+    background-color: white;
+    margin: 1em;
+    border-radius: 1em;     
+    outline: 4px ridge rgba(0, 0, 255);
+    border-radius: 1rem;
+    float :right;
+}
+#nav{
+    height: 10%;
+    background-color: rgba(0, 0, 255);
+    margin: 1em;
+    border-radius: 1em;
+}
+#contenido{
+    height: 53%;
+    margin: 1em;
+}
+#footer{
+    height: 15%;
+    background-color: coral;
+    margin: 1em;
+    border-radius: 1em;
+}
+#section{
+    height: 100%;
+    width: 67%;
+    background-color: darkkhaki;
+    margin-left: 0.5em;
+    border-radius: 1em;
+    float :left;
+}
+#aside{
+    height: 100%;
+    width: 30%;
+    background-color: aquamarine;
+    margin-right: 0.5em;
+    border-radius: 1em;
+    float :right;
+}
+.articulo{
+    height: 20%;
+    width: 96%;
+    background-color: red;
+    margin: 1em;
+    border-radius: 1em;
+}
+h1{
+    color: rgba(0, 0, 255);
+    text-align: center;
+    line-height: 100px;
+}
+h2{
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+#scroll-text {
+    /* animation properties */
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    
+    -moz-animation: my-animation 15s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 15s linear infinite;
+  }
+  
+/* for Firefox */
+@-moz-keyframes my-animation {
+    from { -moz-transform: translateX(100%); }
+    to { -moz-transform: translateX(-100%); }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(100%); }
+    to { -webkit-transform: translateX(-100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    to {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+  
